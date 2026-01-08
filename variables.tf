@@ -14,3 +14,7 @@ variable "vm-name" {
   description = "store aws vm name"
   #default     = "dkroll-vm1"
 }
+variable "novm" {
+  type = number
+  description = "this is for number of vm to be created"
+}
