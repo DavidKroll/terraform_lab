@@ -1,3 +1,3 @@
 ami_id = "ami-068c0051b15cdb816"
 vm-size = "t3.micro"
-vm-name = "dkrolltfvarsdefault-vm"
+vm-name = "dkrolltfvarsdefaultday3-vm"
