@@ -5,16 +5,16 @@ terraform {
       version = "6.27.0"
     }
   }
-    #terraform tfstatefile remote backend section
-    backend "s3" {
-      bucket = "dkroll-user2-jan7-terraform"
-      key = "dev/users2/terraform.tfstate"
-      encrypt = true
-      region = "us-west-1"
-      dynamodb_table = "user2-dkroll-locking-table1"
+  #terraform tfstatefile remote backend section
+  backend "s3" {
+    bucket         = "dkroll-user2-jan7-terraform"
+    key            = "dev/users2/terraform.tfstate"
+    encrypt        = true
+    region         = "us-west-1"
+    dynamodb_table = "user2-dkroll-locking-table1"
 
-      
-    }
+
+  }
 }
 
 provider "aws" {
